@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500;700&display=swap');
+
+
+.topbarContainer{
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    background-color: white;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.logoImgs{
+    margin-left: 60px;
+    height: 60px;
+    width: 180px;
+}
+.topbarLeft{
+    flex: 2;
+}
+
+.topbarCenter{
+    flex: 3;
+    
+}
+.searchbar{
+    width: 90%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: #f3f2ef;
+    border-radius: 20px;
+}
+
+
+.searchInput{
+    width: 50%;
+    background-color: #f3f2ef;
+    border: none;
+}
+
+.searchInput:focus{
+    outline: none;
+}
+
+.searchIcon{
+    font-size: 20px !important;
+    margin-left: 10px;
+}
+
+/* .logo{
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+} */
+
+.logoImg{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+.topbarRight{
+    flex: 5;
+    display: flex;
+    align-items: center;
+    color: gray;
+    justify-content: space-around;
+}
+.topbarIconContainer{
+    margin-right: 70px;
+    width: 24%;
+    
+    
+}
+
+
+
+
+.topbarIconContainer:hover{
+    color: black;
+    font-weight: 700;
+    
+}
+
+
+
+.topbarIconImg{
+    font-size: xx-large !important;
+    
+}
+
+.topbarText{
+    font-size: small;
+    
+}
+
+.topbarIconText{
+    margin-top: -5px;
+}
+
+.topbarIconBadge{
+    color: white;
+}
+
+.topbarIcons{
+    display: flex ;
+    
+    
+}
+
+
+.topbarIconItem{
+   
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.topbarIconImg{
+    display: block;
+    
+}
+/* .topbarIconBadge{
+   min-width: 15px;
+    min-height: 15px;
+    background-color: rgb(186, 48, 48);
+    color: white;
+    font-size: small;
+    border-radius: 50%;
+    display: flex;
+    padding: auto;
+    position: absolute;
+    top: -1px;
+    right: 0px;
+    align-items: center;
+    justify-content: center;
+}  */
+
+
+.topbarlink{
+    margin-right: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.topbarImg{
+    width:32px ;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}

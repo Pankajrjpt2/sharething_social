@@ -1,0 +1,31 @@
+
+.birthdayProfile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px 0 0;
+}
+.birthdayProfileLeft{
+    display: flex;
+    align-items: flex-start;
+}
+
+.birthdayProfilePic{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.birthdayProfileTextContainer{
+    margin-left: 10px;
+}
+.birthdayProfileUsername{
+    color: #3366CC;
+    font-weight: 500;
+    display: block;
+    
+}
+.birthdayProfileAge{
+    color: gray;
+    font-size: small;
+}

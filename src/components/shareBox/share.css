@@ -1,0 +1,76 @@
+.shareContainer{
+    
+    height: 150px;
+    
+    -webkit-box-shadow: 0px 0px 16px -7px rgba(0,0,0,0.67);
+    -moz-box-shadow: 0px 0px 16px -7px rgba(0,0,0,0.67);
+    box-shadow: 0px 0px 16px -7px rgba(0,0,0,0.67);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.shareWrapper{
+    padding: 10px;
+}
+.shareimg{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.shareHr{
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+.shareTop{
+    display: flex;
+    align-items: center;
+}
+.shareInput{
+    border: 1px solid #5F6F94;
+    outline: none;
+    width: 80%;
+    height: 40px;
+    margin-left: 20px;
+    cursor: pointer;
+    padding-left: 20px;
+    border-radius:20px ;
+
+   
+}
+.shareInput:hover{
+    background-color: #f3f2ef;
+    border: 1.5px solid #5F6F94;
+}
+.shareItems{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.shareItem{
+    display: flex;
+    align-items: center;
+    color: gray;
+    cursor: pointer;
+}
+
+.shareItemText{
+    font-size: 12px;
+    margin-left: 5px;
+}
+.shareIcon{
+    width: 26px;
+    height: 26px;
+}
+
+.shareBtn{
+    border: none;
+    padding: 8px 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    color:white;
+    background-color: green;
+}

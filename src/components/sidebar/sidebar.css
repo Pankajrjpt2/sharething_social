@@ -1,0 +1,33 @@
+.sidebarMainContainer{
+    flex: 3;
+    background-color: white;
+    height: calc(100vh - 25px);
+    border-radius: 0 10px 10px 0;
+   margin: 10px 40px 0px 10px;
+
+}
+.sidebarWrapper{
+    margin: 20px 10px;
+}
+.events{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.eventText{
+    margin-left: 5px;
+    color: gray;
+    font-weight: 500;
+}
+.dateAndLine{
+    margin-top: 20px;
+}
+.DayText{
+    
+    color: gray;
+    font-weight: 500;
+}
+.horizontalLin{
+    width: 100%;
+}
